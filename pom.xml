@@ -103,7 +103,7 @@
     <org.osgi.core-version>4.3.1</org.osgi.core-version>
     <p2psockets-version>1.1.2</p2psockets-version>
     <linkedin-zookeeper-version>1.4.0</linkedin-zookeeper-version>
-    <zookeeper-version>3.4.6</zookeeper-version>
+    <zookeeper-version>3.4.14</zookeeper-version>
     <qpid-proton-version>0.32.0</qpid-proton-version>
     <qpid-jms-version>0.41.0</qpid-jms-version>
     <qpid-jms-netty-version>4.1.34.Final</qpid-jms-netty-version>
@@ -182,7 +182,7 @@
     <activemq.osgi.export>${activemq.osgi.export.pkg}*;version=${activemq.osgi.export.version};-noimport:=true</activemq.osgi.export>
     <activemq.osgi.export.version>${project.version}</activemq.osgi.export.version>
     <activemq.osgi.import>${activemq.osgi.import.pkg}</activemq.osgi.import>
-    <activemq.osgi.dynamic.import />
+    <activemq.osgi.dynamic.import/>
     <activemq.osgi.symbolic.name>${project.groupId}.${project.artifactId}</activemq.osgi.symbolic.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -1310,7 +1310,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1323,7 +1323,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1336,7 +1336,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute />
+                    <execute/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1349,7 +1349,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1362,7 +1362,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
