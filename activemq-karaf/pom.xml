@@ -43,12 +43,12 @@
     <dependency>
       <groupId>org.ops4j.pax.logging</groupId>
       <artifactId>pax-logging-api</artifactId>
-      <version>1.8.3</version>
+      <version>1.11.0</version>
     </dependency>
     <dependency>
       <groupId>org.ops4j.pax.logging</groupId>
       <artifactId>pax-logging-service</artifactId>
-      <version>1.8.3</version>
+      <version>1.8.5</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
